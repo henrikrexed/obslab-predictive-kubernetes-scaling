@@ -11,7 +11,7 @@ spec:
     kind: Deployment
     name: opentelemetry-demo-paymentservice
   minReplicas: 1
-  maxReplicas: 2
+  maxReplicas: 10  # Set to a higher value based on your needs
   metrics:
     - type: Resource
       resource:
