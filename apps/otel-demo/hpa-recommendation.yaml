@@ -11,7 +11,7 @@ spec:
     kind: Deployment
     name: opentelemetry-demo-recommendationservice
   minReplicas: 1
-  maxReplicas: 2
+  maxReplicas: Infinity
   metrics:
     - type: Resource
       resource:
