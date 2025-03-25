@@ -11,7 +11,7 @@ spec:
     kind: Deployment
     name: opentelemetry-demo-frontend
   minReplicas: 1
-  maxReplicas: 2
+  maxReplicas: 1000  # Set to a high value instead of Infinity
   metrics:
     - type: Resource
       resource:
